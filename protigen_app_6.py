@@ -98,7 +98,7 @@ if st.session_state.current_page == "Home":
     with c1: st.markdown('<div class="metric-card"><h3>343</h3><p>Total Cohort</p></div>', unsafe_allow_html=True)
     with c2: st.markdown('<div class="metric-card"><h3>97.1%</h3><p>AI Precision</p></div>', unsafe_allow_html=True)
     with c3: st.markdown('<div class="metric-card"><h3>30</h3><p>Biomarkers</p></div>', unsafe_allow_html=True)
-    with c4: st.markdown('<div class="metric-card"><h3>RTX 3060</h3><p>GPU Active</p></div>', unsafe_allow_html=True)
+    with c4: st.markdown('<div class="metric-card"><h3>Active</h3><p>GPU Status</p></div>', unsafe_allow_html=True)
     
     st.markdown("---")
     st.subheader("System Overview")
